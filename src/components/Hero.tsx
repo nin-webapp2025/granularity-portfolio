@@ -26,9 +26,7 @@ export default function Hero() {
 
           {/* Copy */}
           <div>
-            <div className="hero-badge reveal">Available for New Projects</div>
-
-            <h1 className="d-xl hero-title reveal d1">
+            <h1 className="hero-h1 reveal">
               Digital Solutions for<br />
               <span className="accent">Modern Business</span>
             </h1>
