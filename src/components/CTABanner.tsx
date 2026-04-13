@@ -10,7 +10,7 @@ export default function CTABanner() {
           <div className="cta-badge lbl">Limited availability — Q3 2025</div>
           <h2 className="d-md cta-title">
             Ready to refine your<br />
-            <em style={{ fontStyle: 'normal' }}>digital landscape?</em>
+            <em style={{ fontStyle: 'normal' }} className="accent">digital landscape?</em>
           </h2>
           <p className="b-lg cta-sub">
             Drop me a message. I'll review your requirements and come back with a clear

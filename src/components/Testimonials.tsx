@@ -29,7 +29,7 @@ export default function Testimonials() {
           <em style={{ fontStyle: 'normal', color: 'var(--primary)' }}>the field.</em>
         </h2>
 
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '1.5rem' }}>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '1.5rem', marginTop: '3rem' }}>
           {TESTIMONIALS.map((t, i) => (
             <div key={t.name} className={`test-card reveal${i > 0 ? ' d1' : ''}`}>
               <div className="test-stars">
