@@ -45,7 +45,7 @@ export default function Services() {
   return (
     <section className="section-alt" id="services" ref={ref}>
       <div className="container">
-        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '2rem', alignItems: 'end', marginBottom: '4rem' }}>
+        <div className="section-header section-header-mb">
           <div>
             <div className="eyebrow reveal">
               <span className="lbl">02 / Services</span>

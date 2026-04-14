@@ -36,7 +36,7 @@ export default function Expertise() {
           <span className="lbl">01 / Expertise</span>
         </div>
 
-        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '2rem', alignItems: 'end' }}>
+        <div className="section-header">
           <h2 className="d-md reveal d1">
             Expertise carved with<br />
             <em style={{ fontStyle: 'normal', color: 'var(--primary)' }}>Granularity.</em>

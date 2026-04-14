@@ -75,9 +75,9 @@ export default function About() {
         </div>
 
         {/* Core capabilities */}
-        <div style={{ marginTop: '5rem' }}>
-          <h3 className="hl-md reveal" style={{ marginBottom: '2.5rem' }}>Core Capabilities</h3>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2,1fr)', gap: '1.5rem' }}>
+        <div style={{ marginTop: '3rem' }}>
+          <h3 className="hl-md reveal" style={{ marginBottom: '1.5rem' }}>Core Capabilities</h3>
+          <div className="caps-grid">
             {CAPS.map((c, i) => (
               <div key={c.title} className={`exp-card reveal${i > 0 ? ` d${i}` : ''}`}>
                 <div className="exp-icon material-icons-round">{c.icon}</div>

@@ -40,7 +40,7 @@ export default function Process() {
         <div className="eyebrow reveal">
           <span className="lbl">04 / Process</span>
         </div>
-        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '2rem', alignItems: 'end', marginBottom: '4rem' }}>
+        <div className="section-header section-header-mb">
           <h2 className="d-md reveal d1">
             The Four-Phase<br />
             <em style={{ fontStyle: 'normal', color: 'var(--primary)' }}>Methodology.</em>
